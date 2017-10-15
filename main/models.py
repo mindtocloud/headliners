@@ -10,6 +10,6 @@ class Article(models.Model):
 	url_to_image = models.URLField(max_length=250)
 	published_at = models.DateTimeField()
 
-def article_params(data):
-	return {'author': data['author'], 'title': data['title'], 'description': data['description'], 'url': data['url'], 'url_to_image': data['urlToImage'], 'published_at': data['publishedAt'] }
+# def article_params(data):
+# 	return {'author': data['author'], 'title': data['title'], 'description': data['description'], 'url': data['url'], 'url_to_image': data['urlToImage'], 'published_at': data['publishedAt'] }
 
